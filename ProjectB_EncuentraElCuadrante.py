@@ -20,19 +20,19 @@ while numero_de_puntos > 0:
     #verificamos que el punto esté dentro del primer y cuarto cuadrante
     if x > 0:
         if y > 0:
-            print("El punto se encuentra en el primer cuadrante.")
+            print(f"El punto {(x, y)} se encuentra en el primer cuadrante.")
         elif y < 0:
-            print("El punto se encuentra en el cuarto cuadrante.")
+            print(f"El punto {(x, y)} se encuentra en el cuarto cuadrante.")
     #verificamos que el punto esté dentro del segundo y tercer cuadrante
     elif x < 0:
         if y > 0:
-            print("El punto se encuentra en el segundo cuadrante.")
+            print(f"El punto {(x, y)} se encuentra en el segundo cuadrante.")
         elif y < 0:
-            print("El punto se encuentra en el tercer cuadrante.")
+            print(f"El punto {(x, y)} se encuentra en el tercer cuadrante.")
     elif x == 0 and y != 0:
-        print("El punto se encuentra sobre el eje y.")
+        print(f"El punto {(x, y)} se encuentra sobre el eje y.")
     elif y == 0 and x != 0:
-        print("El punto se encuentra sobre el eje x.")
+        print(f"El punto {(x, y)} se encuentra sobre el eje x.")
     else:
         print("El punto (0, 0) se encuentra en el origen.")
     
